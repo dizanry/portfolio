@@ -1,0 +1,60 @@
+.About  {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../assets/background.png');
+    background-size: cover;
+
+}
+
+.About .underline{
+    text-decoration-line: underline;
+}
+
+.About img{
+    border-radius:  50%;
+    width: 350px;
+    height: 400px;
+    box-shadow: 0px 1px 5px 0px;
+}
+
+
+
+.About .padding{
+    padding-top: 40px;
+}
+.About span{
+    margin-right: 10px;
+
+}
+
+.About .progress-bar{
+    margin-bottom: 0px;
+    padding-left: 15px;
+}
+.About .box-skills{
+    padding: 30px;
+    margin: 20px;
+    height: 600px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px 0px;
+}
+.About button{
+    transition: all 0.2s;
+    border-left: 4px solid;
+}
+
+@media only screen and (max-width: 1023px)   {
+    .image{
+        display: none;
+        height: 240px;
+        width: 240px;
+    }
+    .About{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+}
